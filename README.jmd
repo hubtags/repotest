@@ -1,0 +1,12 @@
+Droppable
+Create targets for draggable elements.
+
+Enable any DOM element to be droppable, a target for draggable elements.
+
+
+wxcv
+The droppable widget uses the jQuery UI CSS framework to style its look and feel. If droppable specific styling is needed, the following CSS class names can be used for overrides or as keys for the classes option:
+
+ui-droppable: The droppable element. When a draggable that can be dropped on
+ this dropppable is activated, the ui-droppable-active class is added.
+  When dragging a draggable over this droppable, the ui-droppable-hover class is added.
